@@ -1,6 +1,10 @@
-language: node_jsnode_js:
+language: node_js
+
+node_js:
   - node
-  script:
+
+script:
   - make test
-  notifications:
-    email: false
+
+notifications:
+  email: false

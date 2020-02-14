@@ -1,5 +1,6 @@
 language: node_jsnode_js:
-  - nodescript:
-  - make lint
-  - make testnotifications:
-  email: true
+  - node
+  script:
+  - make test
+  notifications:
+    email: false

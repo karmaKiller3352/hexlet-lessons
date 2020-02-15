@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"All right\"",
-    "zero": "jest"
+    "zero": "jest",
+    "prepublishOnly": "npm run build"
   },
   "author": "Suleiman",
   "license": "ISC",

@@ -4,6 +4,7 @@
   "description": "tests",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"All right\"",
     "zero": "jest"
   },
   "author": "Suleiman",

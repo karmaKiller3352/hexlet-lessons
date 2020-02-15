@@ -13,3 +13,4 @@ publish:
 
 test:
 	npm test
+	npm zero	
